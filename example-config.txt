@@ -1,0 +1,49 @@
+#!/bin/bash
+# BorgBackup Libvirt Backup Script V1.0 Config File
+#Passphrase of your borg repositorty
+BORG_PASSPHRASE=""
+
+#Location of your borg binary
+BORGLOCATION=borg
+
+#Borg compression to use
+COMPRESSION=
+
+#Path to your Borg Repository (ssh access or local directory)
+REPOSITORY=user@example.com:/example/path
+
+#Name of libvirt domain to backup
+DOMAIN=
+
+#Path of disks to backup
+DISKS=
+
+#Hourly backups to keep
+KEEPHOURS=
+
+#Daily backups to keep
+KEEPDAYS=
+
+#Weekly backups to keep
+KEEPWEEKS=
+
+#Monthly backups to keep
+KEEPMONTHS=
+
+#Number of last backups that should always be kept
+KEEPLAST=
+
+#Sender mail address
+MAILFROM=
+
+#Recipient mail address
+MAILTO=
+
+#SMTP Server
+MAILHOST=
+
+#SMTP Username
+MAILUSER=
+
+#SMTP Password
+MAILPASSWORD=
